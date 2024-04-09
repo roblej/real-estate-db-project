@@ -1,0 +1,22 @@
+/* style.css */
+
+form{
+    font-size: 12px;
+}
+label {
+    display: inline-block;
+    width: 120px; /* 라벨의 고정 너비 설정 */
+    text-align: left; /* 라벨 텍스트 우측 정렬 */
+    margin-right: 20px; /* 원하는 간격으로 조절 */
+}
+
+input {
+    width: 200px; /* 입력 필드의 고정 너비 설정 */
+    box-sizing: border-box; /* 너비에 border와 padding 포함시키기 */
+    margin-bottom: 5px; /* 입력 필드 간격 설정 */
+}
+
+input[type="submit"] {
+    width: auto; /* 제출 버튼은 필요한 만큼의 너비를 가지도록 설정 */
+}
+
